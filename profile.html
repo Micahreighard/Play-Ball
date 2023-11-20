@@ -1,0 +1,83 @@
+<!-- Declares the document type (HTML5) -->
+<!DOCTYPE html>
+
+<!-- The root element for an HTML document; 'lang="en"' specifies that this document is in English -->
+<html lang="en">
+
+<head>
+    <!-- Specifies the character encoding for the HTML document. UTF-8 encompasses almost all of the world's writing systems -->
+    <meta charset="UTF-8">
+
+    <!-- Ensures the web page is displayed correctly across all devices, and sets the initial zoom level -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links the HTML document to an external CSS file for styling; 'styles.css' is the name of the external CSS file -->
+    <link rel="stylesheet" href="playball.css" type="text/css">
+    <!-- Sets the title of the webpage that appears on the browser tab -->
+    
+    <title>My Profile/Settings</title>
+</head>
+
+<body>
+   
+    
+    <div class="navbar">
+        <!-- Links that point to other webpages or sections of the website; this one links to the 'profile.html' page -->
+        <a href="#"><button>Personal Information</button></a>
+        <!-- Buttons that, when clicked, can perform actions (e.g. navigate, submit form). They are currently static -->
+        <a href="#"><button>Contact Information</button></a>
+        <a href="#"><button>Financial Information</button></a>
+        <a href="#"><button>Account Type</button></a>
+        <a href="#"><button>User Preferences</button></a>
+    </div>
+
+    <!-- This comment is a placeholder; you can continue adding more content to the homepage below -->
+
+
+
+
+    <!-- A section (typically at the top of a webpage) containing logo, navigation, or other common items -->
+    <header>
+        <!-- Anchor link with logo image inside -->
+        <a href="home.html" >
+            <div class="logo-placeholder">
+                <img src="Placeholder PlayBall Logo (Updated)-2.png" alt="PlayBall Logo" id="logo">
+            </div>
+        </a>
+        <!-- Main heading for this section of the page -->
+        <div class="title">
+            <h1>My Profile/Settings</h1>
+        </div>
+        <!-- Placeholder for user profile/settings; can be replaced with an actual link or icon -->
+        <div class="profile-icon">Profile & Settings</div>
+    </header>
+    <!-- Section dedicated to user information and settings -->
+    
+    <section class="user-info">
+        <!-- Sub-heading -->
+        <div class="user-information"><h2>User Information</h2></div>
+            <div class="username">
+            <!-- A label that describes the purpose of the associated input field -->
+            <label for="username">Username:</label>
+            <!-- An input field where the user can enter their username; 'text' type allows general textual input -->
+            <input type="text" id="username" placeholder="Enter username">
+            </div>
+
+             <div class="email">
+            <!-- Another label for the email input field -->
+            <label for="email">Email:</label>
+            <!-- An input field specifically designed for email addresses -->
+            <input type="email" id="email" placeholder="Enter email">
+            </div>
+        <!-- Another sub-heading -->
+        <div class="acount-stuff"><h2>Account Settings:</h2></div>
+
+        <!-- An unordered list representing different account settings; 'ul' stands for "unordered list" -->
+        <ul><div class="listings">
+            <!-- 'li' stands for "list item"; each represents a different setting -->
+            <li> *Purchase Playcoins</li>
+            <li> *Change Password</li>
+            <li> *Delete Account</li>
+        </ul></div>
+    </section>
+</body>
+</html>

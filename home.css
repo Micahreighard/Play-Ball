@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    margin: 20px;
+    font-size: 24px;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+    
+}
+
+.logo {
+    width: 220px;
+    height: auto;
+    margin-bottom: 300px;
+}
+
+.stocks {
+    
+    padding: 20px;
+    width: 50%;
+}
+
+.stocks h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.stock-item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.profile {
+    width: 200px;
+    height: auto;
+    margin-bottom: 300px;
+    margin-left: 30px;
+}
+
+.trade-btn, .portfolio-btn {
+
+    position: absolute;
+    top: 450px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: x-large;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.trade-btn {
+    left: 0%;
+}
+
+.portfolio-btn {
+    right: 0%;
+    margin-right: 40px;
+}
+.trending-athletes{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-family: bold;
+    font-size: 45px;
+}
+.background{
+    background-image: url("../background.png");
+}
+.user-leaderboard-rankings{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-family: bold;
+    font-size: 45px;
+}
+.container-2{
+   
+}
+.user-leaderboard-rankings{
+    margin-top: 30px;
+}

@@ -1,0 +1,119 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+header nav {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff; /* Adjust to match screenshot color */
+    color: #fff;
+}
+
+.logo-header .logo {
+    /* Add your logo dimensions */
+    width: 150px;
+    height: auto;
+}
+
+.logo-header h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 2em; /* Adjust to match the size in the screenshot */
+}
+
+.profile-settings {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profile-settings .profile-icon {
+    /* Add your profile icon dimensions */
+    width: 150px;
+    height: auto;
+    margin-right: 25px;
+}
+
+.account-value {
+    background-color: #003366; /* Adjust to match screenshot color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em; /* Adjust to match the size in the screenshot */
+}
+
+.player-list {
+    padding: 20px;
+}
+
+.player-list-2{
+    padding: 20px;
+    margin-top: -40px;
+}
+
+.player-list-3{
+    margin-top: -40px;
+    padding:20px;
+}
+
+.player-list-4{
+    margin-top: -40px;
+    padding:20px;
+}
+
+
+.player-item {
+    background-color: #f2f2f2; /* Adjust to match screenshot color */
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-item span {
+    margin-right: 10px;
+}
+
+.player-item button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.view-all {
+    text-align: center;
+    padding: 20px;
+}
+
+.view-all button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8%;
+    box-shadow: none;
+}
+
+.title-container h1 {
+    color: #003366; /* Replace with whatever color you want, #800000 is maroon */
+}
+
+@media screen and (min-width: 768px) {
+    /* Adjustments for larger screens can go here */
+}
